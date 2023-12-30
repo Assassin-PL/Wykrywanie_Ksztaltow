@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="kod">
+      <UniqueIdentifier>{97b821d2-f791-4d3c-b987-b3c5f7479911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Naglowki">
+      <UniqueIdentifier>{fee31788-2fec-4333-8a84-c5c9c6ccda36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>kod</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Funkcje.cu">
+      <Filter>kod</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.cuh">
+      <Filter>Naglowki</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
